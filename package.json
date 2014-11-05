@@ -1,0 +1,19 @@
+{
+  "name": "leanote",
+  "description": "Leanote, note just a notebook!",
+  "homepage": "http://leanote.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leanote/leanote"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.5",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-changed": "~0.3.0",
+    "gulp-coffee": "~1.4.3",
+    "gulp-concat": "^2.3.4",
+    "gulp-less": "~1.2.3",
+    "gulp-minify-css": "~0.3.6",
+    "gulp-uglify": "~0.3.1"
+  }
+}

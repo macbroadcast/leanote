@@ -66,11 +66,7 @@ func (c Note) Index() revel.Result {
 	
 	c.RenderArgs["tagsJson"] = c.Json(tagService.GetTags(c.GetUserId()))
 	
-	if isDev, _ := revel.Config.Bool("mode.dev"); isDev {
-		return c.RenderTemplate("note/note-dev.html")
-	} else {
-		return c.RenderTemplate("note/note.html")
-	}
+	return c.RenderTemplate("note/note.html")
 }
 
 // 首页, 判断是否已登录

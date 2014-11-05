@@ -1,3 +1,9 @@
+# OS and IDE files
+.DS_Store
+.settings
+.project
+
+# build and release files
 /src
 pkg
 bin2
@@ -8,13 +14,17 @@ bin/release
 bin/tmp
 bin/test
 bin/src
+node_modules
+public/src/css
+public/dist
+
+# config files
 conf/app.conf
 conf/routes
+
+# project specific
 public/upload
 app/routes/routes.go
 app/tmp/main.go
-.DS_Store
-.settings
-.project
 public/config.codekit
 files

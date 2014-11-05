@@ -1,0 +1,21 @@
+@import "mixins";
+
+
+::-webkit-scrollbar {
+    width: 10px; background: #fff;
+    &-thumb {
+        background: #ccc;
+        background-clip: padding-box;
+        border: 3px solid white;
+        border-radius: 5px;
+        &:active {
+            background-color: #999;
+            border-width: 2px;
+        }
+    }
+}
+
+var { font-style: normal; }
+
+// .clearfix { .clearfix(); }
+.text-overflow { .text-overflow(); }

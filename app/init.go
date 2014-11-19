@@ -289,6 +289,15 @@ func init() {
 	    }()
 	    return
 	}
+
+	revel.TemplateFuncs["require"] = func(srcs ...string) template.HTML {
+		html := ""
+		for _, s := range srcs {
+			html += fmt.Sprintf(`<link rel="stylesheet" href="/src/%s"/>
+`, s)
+		}
+		return template.HTML(html)
+	}
 	
 	// init Email
 	revel.OnAppStart(func() {

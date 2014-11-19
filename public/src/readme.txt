@@ -1,5 +1,5 @@
 - vendor        public libraries
-- lib           libraries and public utiles written for this project
+- lib           libraries and public utils written for this project
 - less          css files, written in less format, make it easy to compress, merge and autoprefix
 - css           compiled css files from less, ignore them.
 - js            javascript files

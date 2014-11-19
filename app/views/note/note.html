@@ -5,19 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
         <meta name="apple-touch-fullscreen" content="yes">
-        <meta name=”apple-mobile-web-app-capable” content=”yes” />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="keywords" content="leanote,leanote.com">
         <meta name="description" content="leanote, Not Just A Notebook">
         <title>leanote, Not Just A Notebook</title>
 
-        <link href="/src/vendor/bootstrap/bootstrap.css" rel="stylesheet" />
-        <link href="/src/vendor/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        {{require "vendor/bootstrap/bootstrap.css" "vendor/font-awesome/css/font-awesome.css"}}
 
+        <link href="/src/vendor/zTree/zTreeStyle.css" rel="stylesheet" />
+        
         <!-- 先加载, 没有样式, 宽度不定 -->
-        <link rel="stylesheet" href="tinymce/skins/custom/skin.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="/src/vendor/tinymce/skins/custom/skin.min.css" rel="stylesheet"/>
 
-        <!-- leanote css -->
-        <link href="css/zTreeStyle/zTreeStyle.css" rel="stylesheet" />
         <script>
         var hash = location.hash;
         if(hash == "#writing") {
@@ -830,8 +829,8 @@
 		</div>
 	</div>
 </div>
-<script src="js/jquery-1.9.0.min.js"></script>
-<script src="js/jquery.ztree.all-3.5.js"></script>
+<script src="/src/vendor/jquery.js"></script>
+<script src="/src/vendor/zTree/jquery.ztree.all-3.5.js"></script>
 <script src="js/i18n/msg.{{.locale}}.js"></script>
 <script src="js/common.js"></script>
 <script>
@@ -847,7 +846,7 @@ LEA.locale = "{{.locale}}";
 </script>
 
 <!-- 渲染view -->
-<script src="tinymce/tinymce.js"></script>
+<script src="/src/vendor/tinymce/tinymce.js"></script>
 <script src="js/app/page.js"></script>
 <script src="/js/jQuery-slimScroll-1.3.0/jquery.slimscroll.js"></script>
 <script src="/js/contextmenu/jquery.contextmenu.js"></script>

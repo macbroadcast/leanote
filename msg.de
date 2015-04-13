@@ -1,0 +1,340 @@
+# leanote
+app=Leanote
+moto=Nicht nur ein Notizzettel!
+moto2=Wissen teilen, Blog, Zusammenarbeit ... Alles in Leanote
+moto3=Einfach, aber nicht leicht
+fork github=Fork Leanote auf Github
+
+# Anfang
+forgetPassword = Passwort vergessen?
+or=oder
+try=Versuch es
+3th=Externe Konten
+usernameOrEmail=Nutzername oder E-Mail
+password=Passwort
+home=Anfang
+aboutLeanote=Über Leanote
+suggestions=Vorschläge
+yourSuggestions=Vorschläge
+leanoteBlog=Blog
+knowledge=Wissen
+knowledgeInfo=Nutze Leanote als Notizzettel und verwalte dein Wissen in Leanote.
+share=Teilen
+shareInfo=Teile dein Wissen mit Freunden in Leanote.
+cooperation=Zusammenarbeit
+cooperationInfo=Arbeite mit Freunden zusammen und verbessere dein Wissen.
+blog=Blog
+blogInfo=Veröffentliche dein Wissen, und Leanote ist dein Blog!
+suggestionsInfo=Hilf uns, unseren Service zu verbessern.
+yourContact=Dein Kontakt
+emailOrOthers=E-Mail oder andere Kontaktmöglichkeiten
+captcha=Sicherheitswort
+reloadCaptcha=Sicherheitswort neu laden
+captchaError=Sicherheitswort stimmt nicht überein
+inputCaptcha=Sicherheitswort ist notwendig
+
+hi=Hallo
+welcomeUseLeanote=Willkommen!
+myNote=Meine Notizen
+curUser=E-Mail
+
+# form
+submit=Übertragen
+register=Registrieren
+login=Einloggen
+password2=Bestätige dein Passwort
+email=E-Mail
+inputUsername=Nutzername(E-Mail) ist erforderlich
+inputEmail=E-Mail ist erforderlich
+wrongEmail=Falsche E-Mail
+wrongUsernameOrPassword=Falscher Nutzername oder Passwort
+inputPassword=Passwort ist erforderlich
+wrongPassword=Falsches Passwort
+logining=Einloggen
+loginSuccess=Einloggen erfolgreich
+ing=Bearbeiten
+use = Nutzen
+hadAcount = Du hast schon ein Konto?
+hasAcount = Du hast noch kein Konto?
+
+# Registrierung
+registerSuccessAndRdirectToNote=Registrierung erfolgreich, Weiterleitung ...
+userHasBeenRegistered=%s ist registriert
+
+# Passwort vergessen
+passwordTips=Passwortlänge mindestens 6 Zeichen
+findPassword=Finde Passwort
+findPasswordSendEmailOver=Wir haben dir bereits den Passwortlink geschickt, bitte überprüfe deine E-Mail.
+checkEmai=Überprüfe deine E-Mail
+findPasswordTimeout=Unterbrechung
+reFindPassword=Suche Passwort noch mal
+updatePassword=Aktualisiere Passwort
+updatePasswordSuccessRedirectToLogin=Aktualisierung des Passworts war erfolgreich, Weiterleitung zur Login-Seite ...
+inputPassword2=Bitte gib dein Passwort erneut ein
+confirmPassword=Bitte bestätige dein Passwort
+notGoodPassword=Kein sicheres Passwort, die Länge sollte zumindest 6 Zeichen betragen
+
+# Notizen Start
+myBlog=Blog
+history=Verlauf
+save=Speichern
+editorTips=Tipps
+editorTipsInfo=<h4>1. Kurzbefehle</h4>ctrl+shift+c Ansicht ändern<h4>2. shift+enter Den aktuellen Block verlassen</h4> eg. <img src="/images/outofcode.png" style="width: 90px"/> in dieser Situation nutze shift+enter um den derzeitigen Block zu verlassen.
+newNote=Neue Notiz
+newMarkdownNote=Neue Auszeichnungnotiz
+noNoteNewNoteTips=Der Notizblock ist leer, warum erstellst du keine neue ...
+canntNewNoteTips=Entschuldigung, du kannst hier keine neue Notiz hinzufügen, bitte wähle zuerst eine Notizblock.
+new=Neu
+newMarkdown=Neue Auszeichnungsnotiz
+clickAddTag=Klicke hier, um Etikett hinzuzufügen
+notebook=Notizblock
+note=Note
+myNotebook=Meine Notizen
+addNotebook=Füge Notiz hinzu
+search=Suchen
+clearSearch=Lösche Suche
+all=Neueste
+trash=Papierkorb
+delete=Löschen
+unTitled=Nicht beschriftet
+defaultShare=Standard Mitbenutzung
+leftHidden=Verstecke Seitenleiste
+leftShow=Zeige Seitenleiste
+nav=Notiznavigation
+writingMode=Schreibmodus
+normalMode=Normaler Modus
+saving=Speichern
+saveSuccess=Speichern erfolgreich
+
+update=Aktualisierung
+create=Erzeugen
+
+demoRegister=<a href="/register">Registrieren</a>
+
+close=Schliessen
+cancel=Abbrechen
+send=Absenden
+
+# Etikett
+tag=Etikett
+myTag=Mein Etikett
+red=Rot
+yellow=Gelb
+blue=Blau
+green=Grün
+
+# Einrichtung
+accountSetting=Konto
+themeSetting=Darstellung
+setAvatar=Avatar
+logout=Abmelden
+basicInfo=Grundlagen
+basicInfoSet=Blog Grundeinstellugen
+updateEmail=Aktualisiere E-Mail
+usernameSetting=Aktualisiere Nutzernamen
+username=Nutzername
+avatar=Avatar
+chooseImage=Wähle Bild
+oldPassword=Altes Passwort
+newPassword=Neues Passwort
+admin=Administrator
+
+default=Voreinstellung
+simple=Einfach
+
+# tinymce
+uploadImage=Bild hochladen
+
+# blog
+aboutMe=Über mich
+blogSet=Blog Einstellungen
+
+# index
+discussion=Diskussion
+download=Herunterladen
+howToInstallLeanote=Wie installiere ich Leanote?
+
+# 
+attachments = Anhang
+donate = Spenden
+
+# Kontextmenü
+shareToFriends=Teile mit Freunden
+publicAsBlog=Öffentlich als Blog
+cancelPublic=Öffentlich zurücknehmen
+move=Verschieben
+copy=Kopieren
+rename=Umbenennen
+addChildNotebook=Füge Nachfolgenotiz hinzu
+deleteAllShared=Lösche gemeinsame Nutzer
+deleteSharedNotebook=Lösche gemeinsame Notiz
+copyToMyNotebook=Kopiere zu meinen Notizen
+
+####note-dev
+emailInSending=E-Mail in Zustellung 
+checkEmail=Überprüfe E-Mail
+setUsername=Lege Nutzernamen fest
+setUsernameTips=Deine aktuelle E-Mail ist: <code>%s</code>.Du kannst einen einzigartigen Nutzernamen anlegen. <br />Nutzername' mindestens 4 Zeichen und keinen Sonderzeichen.
+currentEmail=Deine aktuelle E-Mail Adresse lautet: <code>%s</code> 
+updateEmail=Aktualisiere E-Mail
+updateEmailTips=Bitte bestätige deine E-Mail nach dem Aktualisieren. Die verifizierte E-Mail ist dein neues Konto.
+sendVerifiedEmail=Schicke Bestätigungsmail
+verified=Bestätigt
+unVerified=Unbestätigt
+verifiedNow=Bestätige jetzt
+resendVerifiedEmail=Versende Bestätigungsmail noch einmal
+
+# Teilen
+defaulthhare=Voreinstellung
+addShare=Füge Freund hinzu
+friendEmail=E-Mail des Freundes
+permission=Erlaubnis
+readOnly=Nur lesen
+writable=Schreibrechte
+inputFriendEmail=E-Mail-Adresse deines Freundes wird benötigt
+clickToChangePermission=Klicke, um Erlaubniss zu ändern
+sendInviteEmailToYourFriend=Schicke deinem Freund eine E-Mail-Benachrichtigung
+copySuccess=Kopieren erfolgreich
+copyFailed=Fehler beim Kopieren
+friendNotExits=Dein Freund besitzt kein %s's Konto, Einladungs-Benachrichtigung verschicken: %s
+emailBodyRequired=E-Mail-Inhalt ist notwendig
+clickToCopy=Klicke zum Kopieren
+sendSuccess=Erfolgreich
+inviteEmailBody=Hallo, ich bin %s, %s ist grossartig, schau es dir an!
+
+# Verlauf
+historiesNum=Wir haben deine letzten <b>10</b> Einträge gespeichert.
+noHistories=Kein Verlauf
+fold=Einklappen
+unfold=Ausklappen
+datetime=Datum und Zeit
+restoreFromThisVersion=Wiederherstellen von dieser Version
+confirmBackup=Bist du sicher, dass du von dieser Version wiederherstellen willst? Wir werden die aktuelle Version speichern.
+createAccount=Erstelle Konto
+createAccountSuccess=Konto-Erstellung erfolgreich
+createAccountFailed=Fehler beim Erstellen des Kontos
+thirdCreateAcountTips=Du nutzt das  %(app)s Konto um dich einzuloggen, du kannst %(app)s Kontos erstellen. <br /> Nachdem du das %(app)s Konto erstellt hast, kannst du dich %(app)s einloggen.
+
+## Gültige Nachricht
+inputUsername=Füge Nutzernamen ein
+updateUsernameSuccess=Aktualisierung des Nutzernamens war erfolgreich
+usernameIsExisted=Nutzername existiert bereits
+noSpecialChars=Nutzername darf keine Sonderzeichen enthalten
+minLength=Die Länge muss mindestens %s Zeichen betragen
+errorEmail=Bitte füge die richtige E-Mail ein
+verifiedEmaiHasSent=Die Verifizierungs-E-Mail wurde verschickt, bitte checke deine E-Mail.
+emailSendFailed=E-Mail-Verifizierung fehlgeschlagen
+inputPassword=Passwort ist erforderlich
+inputNewPassword=Neues Passwort ist erforderlich
+inputPassword2=Bitte füge dein neues Passwort ein
+errorPassword=Die länge des Passwortes sollte mindestenns 6 Zeichen und so komplex wie möglich sein
+oldPasswordError=Das alte Passwort stimmt nicht überein
+confirmPassword=Passwort stimmt nicht überein
+updatePasswordSuccess=Aktualiseren des Passwortes erfolgreich
+errorDomain=Die personalisierte Webseitenaddresse stimmt nicht, z.B. www.myblog.com
+domainExisted=Personalisierte Webseitenadresse existiert bereits
+errorSubDomain=Bitte füge eine gültige Subdomain mit mindestens 4 Zeichen und ohne Sonderzeichen ein.
+subDomainExisted=Subdomain existiert bereits
+domainNotPointToLeanote=Die Benutzerdefinierte Domain zeigt nicht auf d.leanote.com
+errorPerPageSize=Seitengrössenfehler
+errorSortField=Suchfeldfehler
+themeValidHasRoundInclude=WARNING: Layout hat unterschiedliche Verweise!
+
+# lea++
+leaDesc=Leanote Blog Platform
+recommend=Empfohlen
+latest=Letzte
+
+# Mitgliederberich
+memberCenter=Mitgliederbereich
+userNotExists=Der Nutzer existiert nicht
+hasUsers=Der Nutzer existiert bereits
+
+# yu
+service=Service
+imageSizeOver=Entschuldigung, deine Kapazität zum Speichern von Bildern ist erschöpft, bitte <a href="/service">Erweitere dein Konto</a>.
+attachSizeOver=Entschuldigung, deine Kapazität zum Speichern von Anhängen ist erschöpft, bitte <a href="/service">Erweitere dein Konto</a>.
+
+
+#Mitglied
+welcomeToLeanote=Willkommen
+accountInfo=Konto Information
+accountType=Konto-Typ
+premiumAccountType=Premium
+normalAccountType=Normal
+imageSize=Bilder-Kapazität
+attachSize=Anhang-Kapazität
+upgrade=Erweitere mein Konto
+leanoteEvents=Leanote Neuigkeiten
+addLeanoteAccount=Neues Leanote-Konto
+defaultComment=Voreingestellte Leanote-Kommentar-Funktion
+upgradeAccountTips=Ich möchte für meinen Blog eine eigene Webseitenadresse benutzen, <a class="btn btn-default" href="/service">Erweitere mein Konto</a>
+cateIsPublicNotebook=Kategorie der veröffentlichten Notizen
+dragAndSort=Zum Sortieren hierhin ziehen
+permanentLink=Permanente Adresse
+cate=Kategorie
+noCates=Keine Kategorie
+single=Einfache Webseite
+singleTips=Du kannst so viele einfache Webseiten hinzufügen, wie du möchstest
+addSingle=Neue Webseite
+updateSingle=Aktualisiere einfache Webseite
+inputSingleTitle=Webseitentitel erforderlich
+saveSort=Speichere Sortierung
+pagingAndSort=Seiten- und Sortierungseinstellungen
+perPageSize=Grösse der einzelnen Seite
+sortField=Sortierfeld
+sortType=Sortiertyp
+publicTime=Veröffentlichungszeit
+createdTime=Erstellungszeit
+updatedTime=Aktualisierungszeit
+desc=Absteigend
+asc=Aufsteigend
+postList=Posting-Liste
+hasSelfDefined=Ist definiert
+noSelfDefined=Ist nicht definiert
+setAbstract=Abstrahierte Einstellung
+title=Titel
+content=Inhalt
+
+addTheme=Neues Layout
+importTheme=Importiere Layout
+exportTheme=Exportiere Layout
+export=Exportiere
+preview=Vorschau
+edit=Editieren
+use=Nutzen
+install=Installieren
+currentTheme=Aktuelles Layout
+myOtherThemes=Meine anderen Layouts
+leanoteThemeMarket=Leanote-Layout-Shop
+updateTheme=Aktualisiere Layout
+tplStyleScript=Layout, Stil, Skript
+newFile=Neue Datei
+image=Bild
+currentFile=Aktuelle Datei
+tpl=Layout
+style=Stil
+script=Skript
+header=Kopfzeile
+footer=Fusszeile
+index=Anfang
+cate=Kategorie
+search=Suchen
+single=Einfache Webseite
+archive=Archiv
+post=Posting
+tags=Etikett
+tag_posts=Posting-Etikett
+share_comment=Kommentare
+themeJson=Layout-Einstellungen
+paging=Seitennummerierung
+highlight=Quelltext hervorheben
+
+group=Gruppe
+newGroup=Neue Gruppe
+deleteGroup=Gruppe löschen
+addMemberTips=Bitte Nutzernamen oder E-Mail eingeben, um Mitglied hinzuzufügen
+deleteMember=Lösche Mitglied
+
+# Fehler 
+notFound=Diese Seite kann nicht gefunden werden.
